@@ -8,7 +8,7 @@
  * @return {number}
  */
 const MAX_32_BIT_VAL = 2147483647;
-var reverse = function(x) {
+const reverse = function(x: number) {
   const isNegative = x < 0;
 
   const absXStr = Math.abs(x).toString();
@@ -24,3 +24,4 @@ var reverse = function(x) {
   }
   return reversed32Max;
 };
+export { reverse };
