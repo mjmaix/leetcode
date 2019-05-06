@@ -1,12 +1,12 @@
-# My LeetCode solutions written in TS + Mocha
+# LeetCode workspace written in TS / Mocha / TDD
 
 ## How to use
 
 1. Checkout the `package.json` scripts section for various commands.
 
-1. Generated files would be on `dist` folder. This are the files to be submitted to LeetCode
+2. Generated files would be on `dist` folder. This are the files to be submitted to LeetCode
 
-1. Test files should be have `.test.ts` extensions
+3. Test files should be have `.test.ts` extensions
 
 
 ## Tools
