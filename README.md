@@ -10,6 +10,8 @@
 
 1. (Optional) Use extension [LeetCode by ShengChen](https://marketplace.visualstudio.com/items?itemName=shengchen.vscode-leetcode)
 
+1. Included are debug run configurations for TS file `Current TS File` or Mocha Test file `Current TS Mocha File`
+
 ## Why
 
 Practice TS skills and write in a TDD manner.
