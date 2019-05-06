@@ -1,7 +1,20 @@
 {
+    "windowColors.internalSettings": {
+        "BaseColor": "hsl(335,12%,   31%)",
+        "portfolioAndColor": {
+            "portfolio": "Dusty",
+            "coloration": "hsl(335,12%, 31%)"
+        },
+        "useAutomatic": true
+    },
     "workbench.colorCustomizations": {
-        "activityBar.background": "#47155E",
-        "titleBar.activeBackground": "#631E84",
-        "titleBar.activeForeground": "#FEFCFE"
+        "titleBar.activeBackground": "#75485B",
+        "titleBar.inactiveBackground": "#623C4C",
+        "titleBar.activeForeground": "#FCFAFA",
+        "titleBar.inactiveForeground": "#B3ACAF",
+        "activityBar.background": "#623C4C",
+        "activityBar.foreground": "#FCF9FA",
+        "statusBar.background": "#523240",
+        "statusBar.foreground": "#ffffff"
     }
 }
