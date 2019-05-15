@@ -17,9 +17,10 @@ const CLOSE: { [key in CloseParenSymbols]: OpenParenSymbols } = {
 const isValid = (s: string) => {
   const sArray = s.split("") as ParenSymbols[];
   const process: ParenSymbols[] = [];
-  while (sArray.length > 0) {
+  let i = 0;
+  while (sArray.length > i) {
     const lastVal: ParenSymbols = process[process.length - 1];
-    const currentElem = sArray.shift();
+    const currentElem = sArray[i++];
 
     if (lastVal && OPEN[lastVal] === currentElem) {
       process.pop();
