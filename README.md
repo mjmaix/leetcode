@@ -1,4 +1,4 @@
-# LeetCode workspace written in TS / Mocha / TDD
+# LeetCode workspace written in TS / Mocha / TDD [![Build Status](https://travis-ci.org/mjmaix/leetcode.svg?branch=master)](https://travis-ci.org/mjmaix/leetcode)
 
 ## How to use
 
